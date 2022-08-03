@@ -1,9 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Property365.Common" Version="1.0.0-CI-20220801-180839" />
+    <PackageReference Include="Property365.Common.Messaging" Version="1.0.0-CI-20220801-180839" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StockManager.Abstractions\StockManager.Abstractions.csproj" />
+  </ItemGroup>
 
 </Project>

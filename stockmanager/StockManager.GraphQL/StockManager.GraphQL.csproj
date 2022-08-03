@@ -1,9 +1,22 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HotChocolate.AspNetCore" Version="13.0.0-preview.28" />
+    <PackageReference Include="HotChocolate.Types" Version="13.0.0-preview.28" />
+    <PackageReference Include="Property365.Common" Version="1.0.0-CI-20220801-180839" />
+    <PackageReference Include="Property365.Common.Messaging" Version="1.0.0-CI-20220801-180839" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StockManager.Abstractions\StockManager.Abstractions.csproj" />
+    <ProjectReference Include="..\StockManager.Application\StockManager.Application.csproj" />
+    <ProjectReference Include="..\StockManager.Infrastructure\StockManager.Infrastructure.csproj" />
+  </ItemGroup>
 
 </Project>

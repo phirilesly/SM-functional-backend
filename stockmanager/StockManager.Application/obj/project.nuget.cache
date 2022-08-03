@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "wQS3dGn3h0nDoQkcjc0+pTdEd76vSRejICf0VB84rPtYF9lLY4BGoHr1O6ermFpqj0UX0yLEmBkpKj7q0go/Jw==",
+  "dgSpecHash": "bwMybcfqyf1auDiVifRzVrewff80/E980ahiY9rx9x5CAZQdrgTkyFjD+eAJBpbe0HXuJrN7uiV1zGhhDNw9jA==",
   "success": true,
   "projectFilePath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Application\\StockManager.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Property365\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\property365.common\\1.0.0-ci-20220801-180839\\property365.common.1.0.0-ci-20220801-180839.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\property365.common.messaging\\1.0.0-ci-20220801-180839\\property365.common.messaging.1.0.0-ci-20220801-180839.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\property365.functional\\1.0.0-ci-20220801-180839\\property365.functional.1.0.0-ci-20220801-180839.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\system.threading.tasks.dataflow\\6.0.0\\system.threading.tasks.dataflow.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

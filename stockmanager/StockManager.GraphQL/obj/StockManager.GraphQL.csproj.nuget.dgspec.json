@@ -4,14 +4,14 @@
     "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.GraphQL\\StockManager.GraphQL.csproj": {}
   },
   "projects": {
-    "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.GraphQL\\StockManager.GraphQL.csproj": {
+    "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Abstractions\\StockManager.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.GraphQL\\StockManager.GraphQL.csproj",
-        "projectName": "StockManager.GraphQL",
-        "projectPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.GraphQL\\StockManager.GraphQL.csproj",
+        "projectUniqueName": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Abstractions\\StockManager.Abstractions.csproj",
+        "projectName": "StockManager.Abstractions",
+        "projectPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Abstractions\\StockManager.Abstractions.csproj",
         "packagesPath": "C:\\Users\\Property365\\.nuget\\packages\\",
-        "outputPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.GraphQL\\obj\\",
+        "outputPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Property365\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,325 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Property365.Common": {
+              "target": "Package",
+              "version": "[1.0.0-CI-20220801-180839, )"
+            },
+            "Property365.Common.Messaging": {
+              "target": "Package",
+              "version": "[1.0.0-CI-20220801-180839, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Application\\StockManager.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Application\\StockManager.Application.csproj",
+        "projectName": "StockManager.Application",
+        "projectPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Application\\StockManager.Application.csproj",
+        "packagesPath": "C:\\Users\\Property365\\.nuget\\packages\\",
+        "outputPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Property365\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/365solutions/Property365/_packaging/Property365.Packages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/365solutions/_packaging/365Solutions.Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Abstractions\\StockManager.Abstractions.csproj": {
+                "projectPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Abstractions\\StockManager.Abstractions.csproj"
+              },
+              "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Core\\StockManager.Core.csproj": {
+                "projectPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Core\\StockManager.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Property365.Common": {
+              "target": "Package",
+              "version": "[1.0.0-CI-20220801-180839, )"
+            },
+            "Property365.Common.Messaging": {
+              "target": "Package",
+              "version": "[1.0.0-CI-20220801-180839, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Core\\StockManager.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Core\\StockManager.Core.csproj",
+        "projectName": "StockManager.Core",
+        "projectPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Core\\StockManager.Core.csproj",
+        "packagesPath": "C:\\Users\\Property365\\.nuget\\packages\\",
+        "outputPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Property365\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/365solutions/Property365/_packaging/Property365.Packages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/365solutions/_packaging/365Solutions.Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Abstractions\\StockManager.Abstractions.csproj": {
+                "projectPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Abstractions\\StockManager.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Property365.Common": {
+              "target": "Package",
+              "version": "[1.0.0-CI-20220801-180839, )"
+            },
+            "Property365.Common.Messaging": {
+              "target": "Package",
+              "version": "[1.0.0-CI-20220801-180839, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.GraphQL\\StockManager.GraphQL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.GraphQL\\StockManager.GraphQL.csproj",
+        "projectName": "StockManager.GraphQL",
+        "projectPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.GraphQL\\StockManager.GraphQL.csproj",
+        "packagesPath": "C:\\Users\\Property365\\.nuget\\packages\\",
+        "outputPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.GraphQL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Property365\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/365solutions/Property365/_packaging/Property365.Packages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/365solutions/_packaging/365Solutions.Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Abstractions\\StockManager.Abstractions.csproj": {
+                "projectPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Abstractions\\StockManager.Abstractions.csproj"
+              },
+              "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Application\\StockManager.Application.csproj": {
+                "projectPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Application\\StockManager.Application.csproj"
+              },
+              "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Infrastructure\\StockManager.Infrastructure.csproj": {
+                "projectPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Infrastructure\\StockManager.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[13.0.0-preview.28, )"
+            },
+            "HotChocolate.Types": {
+              "target": "Package",
+              "version": "[13.0.0-preview.28, )"
+            },
+            "Property365.Common": {
+              "target": "Package",
+              "version": "[1.0.0-CI-20220801-180839, )"
+            },
+            "Property365.Common.Messaging": {
+              "target": "Package",
+              "version": "[1.0.0-CI-20220801-180839, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Infrastructure\\StockManager.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Infrastructure\\StockManager.Infrastructure.csproj",
+        "projectName": "StockManager.Infrastructure",
+        "projectPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Infrastructure\\StockManager.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Property365\\.nuget\\packages\\",
+        "outputPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Property365\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/365solutions/Property365/_packaging/Property365.Packages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/365solutions/_packaging/365Solutions.Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Abstractions\\StockManager.Abstractions.csproj": {
+                "projectPath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.Abstractions\\StockManager.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "Property365.Common": {
+              "target": "Package",
+              "version": "[1.0.0-CI-20220801-180839, )"
+            },
+            "Property365.Common.Messaging": {
+              "target": "Package",
+              "version": "[1.0.0-CI-20220801-180839, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

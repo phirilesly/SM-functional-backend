@@ -1,15 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "wBF+mphAVIDqKeRbeiGXmOB4C7NTkVcbXXUEbiFNMVDBvWUTYQP4RUzqEOoYfEyue9fqf+jE5wEUFsrhobbSGg==",
+  "dgSpecHash": "W0stZAFKLjdE+vhYz3PQvz80Cw+BZLbKMSCfwR11TuHepIjwXSzfrMz/niUBbtlvGHBqDDss0DFm+Br8s7h7hw==",
   "success": true,
   "projectFilePath": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.API\\StockManager.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Property365\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Property365\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\Property365\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\property365.common\\1.0.0-ci-20220801-180839\\property365.common.1.0.0-ci-20220801-180839.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\property365.common.messaging\\1.0.0-ci-20220801-180839\\property365.common.messaging.1.0.0-ci-20220801-180839.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\property365.functional\\1.0.0-ci-20220801-180839\\property365.functional.1.0.0-ci-20220801-180839.nupkg.sha512",
     "C:\\Users\\Property365\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Property365\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Property365\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\Property365\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\Property365\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Property365\\.nuget\\packages\\system.threading.tasks.dataflow\\6.0.0\\system.threading.tasks.dataflow.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
