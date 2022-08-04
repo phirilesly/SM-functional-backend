@@ -12,5 +12,12 @@ namespace StockManager.API.EndPoints
         .Match<IResult>(
          Left: errs => Results.BadRequest(new { Errors = errs }),
          Right: result => Results.Ok(result));
+
+        internal static async Task<IResult> UpdateProduct([FromBody] UpdatedProduct updatedProduct)
+  => ProductManager
+    .UpdateProduct(new UpdatedProduct(updatedProduct.Id,updatedProduct.Name, updatedProduct.Description, updatedProduct.Category, updatedProduct.Price, "", Guid.Empty))
+    .Match<IResult>(
+     Left: errs => Results.BadRequest(new { Errors = errs }),
+     Right: result => Results.Ok(result));
     }
 }

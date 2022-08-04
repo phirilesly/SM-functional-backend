@@ -24,11 +24,36 @@ namespace StockManager.Application
             => Product
             .RegisterProduct(cmd)
             .Bind(SaveProductRegistrationState);
+
+        public static Either<Error, ProductRegistrationState> UpdateProduct(UpdatedProduct cmd)
+        => Product
+        .UpdateProduct(cmd)
+        .Bind(UpdateProductState);
+
         public static Either<Error, ProductRegistrationState> SaveProductRegistrationState(ProductRegistered @event)
         {
             var state = new ProductRegistrationState(@event.Id, @event.Name, @event.Description, @event.Category, @event.Price);
 
             var record = new EventRecord(Guid.NewGuid(), @event.Id, DateTime.Now, "ProductRegistered", @event);
+            _productEventStore.Persist(record).Wait(); ;
+            _dispatcher.DispatchAsync(new List<ProductRegistered> { @event }).Wait();
+
+            var history = _productEventStore.GetEvents(@event.Id).Result;
+
+            var events = history
+                 .Bind(h => h.AsEnumerable().Select(r => r.Data));
+
+            var newState = Product.From(events);
+
+
+            return state;
+        }
+
+        public static Either<Error, ProductRegistrationState> UpdateProductState(ProductRegistered @event)
+        {
+            var state = new ProductRegistrationState(@event.Id, @event.Name, @event.Description, @event.Category, @event.Price);
+
+            var record = new EventRecord(Guid.NewGuid(), @event.Id, DateTime.Now, "ProductUpdated", @event);
             _productEventStore.Persist(record).Wait(); ;
             _dispatcher.DispatchAsync(new List<ProductRegistered> { @event }).Wait();
 

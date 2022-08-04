@@ -19,11 +19,26 @@ namespace StockManager.Core
         public static Either<Error, RegisterProduct> ValidateProductName(RegisterProduct cmd)
           => nameRegex.IsMatch(cmd.Name) ? cmd : Errors.InvalidSchemeName;
 
+        public static Either<Error, UpdatedProduct> ValidateProductName(UpdatedProduct cmd)
+          => nameRegex.IsMatch(cmd.Name) ? cmd : Errors.InvalidSchemeName;
+
         public static Either<Error, ProductRegistered> RegisterProduct(RegisterProduct cmd)
     => ValidateProductName(cmd)
        .Bind(ConfirmProductRegistration);
+
+        public static Either<Error, ProductRegistered> UpdateProduct(UpdatedProduct cmd)
+=> ValidateProductName(cmd)
+   .Bind(ConfirmProductUpdating);
+
+
+
+
         public static Either<Error, ProductRegistered> ConfirmProductRegistration(RegisterProduct cmd)
           => new ProductRegistered(Guid.NewGuid(), cmd.Name, cmd.Description, cmd.Category, cmd.Price, cmd.UserId, cmd.SubscriptionId,DateTime.Now);
+
+        public static Either<Error, ProductRegistered> ConfirmProductUpdating(UpdatedProduct cmd)
+       => new ProductRegistered(cmd.Id, cmd.Name, cmd.Description, cmd.Category, cmd.Price, cmd.UserId, cmd.SubscriptionId, DateTime.Now);
+
         public static ProductRegistrationState Apply(this ProductRegistrationState state, Event @event)
           => @event switch
           {
@@ -32,12 +47,19 @@ namespace StockManager.Core
               => state with { Id = e.EntityId, Description= e.Description, Category = e.Category, Price = e.Price, Name = e.Name },
               ProductNameChanged e
               => state with { Name = e.Name },
+              ProductUpdated e 
+              => state with { Id = e.EntityId,Description = e.Description,Category = e.Category,Price = e.Price, Name = e.Name },
 
               _ => throw new InvalidOperationException()
           };
 
+     
         public static ProductRegistrationState Create(ProductRegistered evt)
         => new ProductRegistrationState(evt.Id, evt.Name, evt.Description, evt.Category, evt.Price);
+
+
+
+
         public static Option<ProductRegistrationState> From(IEnumerable<Event> history)
           => history.Match
             (
@@ -51,5 +73,7 @@ namespace StockManager.Core
                         )
                     )
             );
+
+   
     }
 }
