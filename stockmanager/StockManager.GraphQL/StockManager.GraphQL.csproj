@@ -19,4 +19,10 @@
     <ProjectReference Include="..\StockManager.Infrastructure\StockManager.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Property365.Common">
+      <HintPath>..\..\..\..\Temp\Bin\Property365.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

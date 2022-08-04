@@ -1,0 +1,188 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "StockManager.Abstractions/1.0.0": {
+        "dependencies": {
+          "Property365.Common": "1.0.0-CI-20220801-180839",
+          "Property365.Common.Messaging": "1.0.0-CI-20220801-180839"
+        },
+        "runtime": {
+          "StockManager.Abstractions.dll": {}
+        }
+      },
+      "Autofac/6.4.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "runtime": {
+          "lib/net6.0/Autofac.dll": {
+            "assemblyVersion": "6.4.0.0",
+            "fileVersion": "6.4.0.0"
+          }
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/8.0.0": {
+        "dependencies": {
+          "Autofac": "6.4.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Autofac.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Property365.Common/1.0.0-CI-20220801-180839": {
+        "dependencies": {
+          "Property365.Functional": "1.0.0-CI-20220801-180839"
+        },
+        "runtime": {
+          "lib/net6.0/Property365.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Property365.Common.Messaging/1.0.0-CI-20220801-180839": {
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "8.0.0",
+          "Property365.Common": "1.0.0-CI-20220801-180839",
+          "Property365.Functional": "1.0.0-CI-20220801-180839"
+        },
+        "runtime": {
+          "lib/net6.0/Property365.Common.Messaging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Property365.Functional/1.0.0-CI-20220801-180839": {
+        "dependencies": {
+          "System.Collections.Immutable": "6.0.0",
+          "System.Reactive": "5.0.0",
+          "System.Threading.Tasks.Dataflow": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Property365.Functional.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Collections.Immutable/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.7.1": {},
+      "System.Reactive/5.0.0": {
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.1"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Threading.Tasks.Dataflow/6.0.0": {}
+    }
+  },
+  "libraries": {
+    "StockManager.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tkFxl6wAPuwVhrlN8wuNADnd+k2tv4ReP7ZZSL0vjfcN0RcfC9v25ogxK6b03HC7D4NwWjSLf1G/zTG8Bw43wQ==",
+      "path": "autofac/6.4.0",
+      "hashPath": "autofac.6.4.0.nupkg.sha512"
+    },
+    "Autofac.Extensions.DependencyInjection/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nGrXNpQX2FiZpIBydK9cxZnnoqP/cUd3k/53uRERYEqLtWzKtE15R6L+j5q5ax5Rv/+3wAIkOaPePkahfqrwjg==",
+      "path": "autofac.extensions.dependencyinjection/8.0.0",
+      "hashPath": "autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Property365.Common/1.0.0-CI-20220801-180839": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4FPuUimyXmC2nacA5K8Rq+oz7+SyGw8DZMxQy3w7c53bg3xuEYH0QuKm0j906k4IlxYm9nu3LuPvFqf3qYaW4w==",
+      "path": "property365.common/1.0.0-ci-20220801-180839",
+      "hashPath": "property365.common.1.0.0-ci-20220801-180839.nupkg.sha512"
+    },
+    "Property365.Common.Messaging/1.0.0-CI-20220801-180839": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8SszsMbbTLqEImMnBtVOf1b4S9diqqX9vyiSr4wSpYXp6EwGSLs21phuJNPY7Ev0VmR2v3hguM889gTjPz3GgA==",
+      "path": "property365.common.messaging/1.0.0-ci-20220801-180839",
+      "hashPath": "property365.common.messaging.1.0.0-ci-20220801-180839.nupkg.sha512"
+    },
+    "Property365.Functional/1.0.0-CI-20220801-180839": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eIdm1FsDetMEBLRKKfmtWqwf7Hi7ly6XyAkfa1Bk83rFRCuntvmXR4L4jFNcH5AN07NIaClKZuzXffbIx7xbCA==",
+      "path": "property365.functional/1.0.0-ci-20220801-180839",
+      "hashPath": "property365.functional.1.0.0-ci-20220801-180839.nupkg.sha512"
+    },
+    "System.Collections.Immutable/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
+      "path": "system.collections.immutable/6.0.0",
+      "hashPath": "system.collections.immutable.6.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
+      "path": "system.diagnostics.diagnosticsource/4.7.1",
+      "hashPath": "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    },
+    "System.Reactive/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "path": "system.reactive/5.0.0",
+      "hashPath": "system.reactive.5.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Dataflow/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+tyDCU3/B1lDdOOAJywHQoFwyXIUghIaP2BxG79uvhfTnO+D9qIgjVlL/JV2NTliYbMHpd6eKDmHp2VHpij7MA==",
+      "path": "system.threading.tasks.dataflow/6.0.0",
+      "hashPath": "system.threading.tasks.dataflow.6.0.0.nupkg.sha512"
+    }
+  }
+}

@@ -11,4 +11,14 @@
     <PackageReference Include="Property365.Common.Messaging" Version="1.0.0-CI-20220801-180839" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Property365.Common">
+      <HintPath>..\..\..\..\Temp\Bin\Property365.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Property365.Functional">
+      <HintPath>..\..\..\..\Temp\Bin\Property365.Functional.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
 </Project>

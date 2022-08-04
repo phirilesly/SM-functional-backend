@@ -13,4 +13,11 @@ namespace StockManager.Abstractions.Products
             => new(default, default, default, default, default);
 
     }
+
+    public record ProductUpdatingState(Guid Id, string Name, string Description, string Category, float Price) : IEntity
+    {
+        public static ProductUpdatingState Empty
+            => new(default, default, default, default, default);
+
+    }
 }

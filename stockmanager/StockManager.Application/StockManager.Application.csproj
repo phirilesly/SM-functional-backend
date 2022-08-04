@@ -17,4 +17,16 @@
     <ProjectReference Include="..\StockManager.Core\StockManager.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Property365.Common">
+      <HintPath>..\..\..\..\Temp\Bin\Property365.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Property365.Common.Messaging">
+      <HintPath>..\..\..\..\Temp\Bin\Property365.Common.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="Property365.Functional">
+      <HintPath>..\..\..\..\Temp\Bin\Property365.Functional.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

@@ -30,7 +30,7 @@ namespace StockManager.GraphQL
             return services;
         }
 
-        public static IEndpointRouteBuilder UseSectionalSchemesGraphQL(this IEndpointRouteBuilder endpoints)
+        public static IEndpointRouteBuilder UseStockManagerGraphQL(this IEndpointRouteBuilder endpoints)
         {
             endpoints.MapGraphQL();
             return endpoints;

@@ -1,0 +1,15 @@
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Infrastructure\bin\Debug\net6.0\StockManager.Infrastructure.deps.json
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Infrastructure\bin\Debug\net6.0\StockManager.Infrastructure.dll
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Infrastructure\bin\Debug\net6.0\StockManager.Infrastructure.pdb
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Infrastructure\bin\Debug\net6.0\StockManager.Abstractions.dll
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Infrastructure\bin\Debug\net6.0\StockManager.Abstractions.pdb
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Infrastructure\obj\Debug\net6.0\StockManager.Infrastructure.csproj.AssemblyReference.cache
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Infrastructure\obj\Debug\net6.0\StockManager.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Infrastructure\obj\Debug\net6.0\StockManager.Infrastructure.AssemblyInfoInputs.cache
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Infrastructure\obj\Debug\net6.0\StockManager.Infrastructure.AssemblyInfo.cs
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Infrastructure\obj\Debug\net6.0\StockManager.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Infrastructure\obj\Debug\net6.0\StockManager.Infrastructure.csproj.CopyComplete
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Infrastructure\obj\Debug\net6.0\StockManager.Infrastructure.dll
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Infrastructure\obj\Debug\net6.0\refint\StockManager.Infrastructure.dll
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Infrastructure\obj\Debug\net6.0\StockManager.Infrastructure.pdb
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Infrastructure\obj\Debug\net6.0\ref\StockManager.Infrastructure.dll

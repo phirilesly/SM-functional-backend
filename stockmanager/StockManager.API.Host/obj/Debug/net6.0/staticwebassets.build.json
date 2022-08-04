@@ -1,0 +1,34 @@
+{
+  "Version": 1,
+  "Hash": "JZBG5cb4M1f/N1VKmNm7beu1lxneM/xH/lwgzXCHFmI=",
+  "Source": "StockManager.API.Host",
+  "BasePath": "_content/StockManager.API.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.API.Configuration\\StockManager.API.Configuration.csproj",
+      "Version": 2,
+      "Source": "StockManager.API.Configuration",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    },
+    {
+      "Identity": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.API\\StockManager.API.csproj",
+      "Version": 2,
+      "Source": "StockManager.API",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

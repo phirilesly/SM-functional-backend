@@ -4,8 +4,7 @@ using System.Reflection;
 
 namespace StockManager.API.Services
 {
-    public class EventsModule
-    {
+  
         public class EventsModule : Autofac.Module
         {
             protected override void Load(ContainerBuilder builder)
@@ -29,4 +28,4 @@ namespace StockManager.API.Services
             }
         }
     }
-}
+

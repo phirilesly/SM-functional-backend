@@ -15,7 +15,7 @@ namespace StockManager.Application
     {
         private static IProductEventStore _productEventStore;
         private static IEventDispatcher _dispatcher;
-        public static void ConfigureSchemeEventStore(IProductEventStore productEventStore, IEventDispatcher dispatcher)
+        public static void ConfigureProductEventStore(IProductEventStore productEventStore, IEventDispatcher dispatcher)
         {
             _productEventStore = productEventStore;
             _dispatcher = dispatcher;

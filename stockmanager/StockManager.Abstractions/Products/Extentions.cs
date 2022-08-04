@@ -12,5 +12,10 @@ namespace StockManager.Abstractions.Products
         {
             return new ProductRegistered(product.Id, product.Name, product.Description, product.Category, product.Price, "testuser", Guid.Empty, DateTime.Now);
         }
+
+        public static ProductUpdated ToUpdatedEvent(this ProductRegistrationState product)
+        {
+            return new ProductRegistered(product.Id, product.Name, product.Description, product.Category, product.Price, "testuser", Guid.Empty, DateTime.Now);
+        }
     }
 }

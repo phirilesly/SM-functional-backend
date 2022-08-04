@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "2XfwVNRy/XJps/gFj7NLiL4HNsezrGnqdTX9sAP0sLo=",
+  "Source": "StockManager.API.Configuration",
+  "BasePath": "_content/StockManager.API.Configuration",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Frontend\\SM-V1\\SM-functional-api\\stockmanager\\StockManager.API\\StockManager.API.csproj",
+      "Version": 2,
+      "Source": "StockManager.API",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

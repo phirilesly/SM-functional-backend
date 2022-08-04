@@ -1,0 +1,17 @@
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\bin\Debug\net6.0\StockManager.Application.deps.json
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\bin\Debug\net6.0\StockManager.Application.dll
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\bin\Debug\net6.0\StockManager.Application.pdb
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\bin\Debug\net6.0\StockManager.Abstractions.dll
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\bin\Debug\net6.0\StockManager.Core.dll
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\bin\Debug\net6.0\StockManager.Abstractions.pdb
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\bin\Debug\net6.0\StockManager.Core.pdb
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\obj\Debug\net6.0\StockManager.Application.csproj.AssemblyReference.cache
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\obj\Debug\net6.0\StockManager.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\obj\Debug\net6.0\StockManager.Application.AssemblyInfoInputs.cache
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\obj\Debug\net6.0\StockManager.Application.AssemblyInfo.cs
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\obj\Debug\net6.0\StockManager.Application.csproj.CoreCompileInputs.cache
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\obj\Debug\net6.0\StockManager.Application.csproj.CopyComplete
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\obj\Debug\net6.0\StockManager.Application.dll
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\obj\Debug\net6.0\refint\StockManager.Application.dll
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\obj\Debug\net6.0\StockManager.Application.pdb
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Application\obj\Debug\net6.0\ref\StockManager.Application.dll

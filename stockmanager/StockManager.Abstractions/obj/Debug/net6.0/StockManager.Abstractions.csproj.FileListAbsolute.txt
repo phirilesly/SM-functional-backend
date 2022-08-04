@@ -1,0 +1,12 @@
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Abstractions\bin\Debug\net6.0\StockManager.Abstractions.deps.json
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Abstractions\bin\Debug\net6.0\StockManager.Abstractions.dll
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Abstractions\bin\Debug\net6.0\StockManager.Abstractions.pdb
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Abstractions\obj\Debug\net6.0\StockManager.Abstractions.csproj.AssemblyReference.cache
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Abstractions\obj\Debug\net6.0\StockManager.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Abstractions\obj\Debug\net6.0\StockManager.Abstractions.AssemblyInfoInputs.cache
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Abstractions\obj\Debug\net6.0\StockManager.Abstractions.AssemblyInfo.cs
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Abstractions\obj\Debug\net6.0\StockManager.Abstractions.csproj.CoreCompileInputs.cache
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Abstractions\obj\Debug\net6.0\StockManager.Abstractions.dll
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Abstractions\obj\Debug\net6.0\refint\StockManager.Abstractions.dll
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Abstractions\obj\Debug\net6.0\StockManager.Abstractions.pdb
+C:\Frontend\SM-V1\SM-functional-api\stockmanager\StockManager.Abstractions\obj\Debug\net6.0\ref\StockManager.Abstractions.dll

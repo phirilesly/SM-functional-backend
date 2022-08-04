@@ -1,15 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Library</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Property365.Common" Version="1.0.0-CI-20220801-180839" />
     <PackageReference Include="Property365.Common.Messaging" Version="1.0.0-CI-20220801-180839" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StockManager.API\StockManager.API.csproj" />
+    <ProjectReference Include="..\StockManager.GraphQL\StockManager.GraphQL.csproj" />
   </ItemGroup>
 
 </Project>
